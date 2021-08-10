@@ -6,6 +6,7 @@ public class Principal {
         Figuras datos = new Figuras();
         datos.cuadrado();
         datos.triangulo();
+        datos.circulo();
     }
 
 }

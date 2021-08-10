@@ -23,5 +23,14 @@ public class Figuras {
         JOptionPane.showMessageDialog(null, "El area del traingulo es: " + area);
 
     }
+    
+    public void circulo() {
+
+        double radio, perimetro;
+        radio = Double.parseDouble(JOptionPane.showInputDialog("Digite el radio del circulo"));
+        perimetro = 2 * 3.14 * radio;
+        JOptionPane.showMessageDialog(null, "El perimetro del circulo es: " + perimetro);
+
+    }
 
 }
