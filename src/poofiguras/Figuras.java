@@ -32,5 +32,15 @@ public class Figuras {
         JOptionPane.showMessageDialog(null, "El perimetro del circulo es: " + perimetro);
 
     }
+    
+    public void rectangulo() {
+
+        int base, altura, area;
+        base = Integer.parseInt(JOptionPane.showInputDialog("Digite la base del rectangulo"));
+        altura = Integer.parseInt(JOptionPane.showInputDialog("Digite la altura del rectangulo"));
+        area = base * altura;
+
+        JOptionPane.showMessageDialog(null, "El area del cuadrado es: " + area);
+    }
 
 }
